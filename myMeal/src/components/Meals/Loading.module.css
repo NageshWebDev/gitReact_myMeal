@@ -1,0 +1,24 @@
+.h1 {
+    text-align: center;
+    animation: blink 1500ms linear infinite;
+}
+
+.load {
+    animation: spin 1500ms linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(000deg);color: yellowgreen;}
+    25% {transform: rotate(090deg);color: whitesmoke;}
+    50% {transform: rotate(180deg);color: yellowgreen;}
+    75% {transform: rotate(270deg);color: whitesmoke;}
+    100% {transform: rotate(360deg);color: yellowgreen;}
+}
+
+@keyframes blink {
+    0% {color: yellowgreen;}
+    25% {color: whitesmoke;}
+    50% {color: yellowgreen;}
+    75% {color: whitesmoke;}
+    100% {color: yellowgreen;}
+}

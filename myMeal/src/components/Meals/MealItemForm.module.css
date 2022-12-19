@@ -1,0 +1,42 @@
+.form {
+    text-align: right;
+  }
+  
+  .buttonAdd {
+    font: inherit;
+    cursor: pointer;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .buttonAdd:hover {
+    background-color: rgb(112, 166, 5);
+  }
+
+  .onlyDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .buttonDel {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: whitesmoke;
+  }
+
+  .buttonDel:hover {
+    background-color: darkred;
+    color: white;
+    border: none;
+  }

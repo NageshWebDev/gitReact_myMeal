@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+.containerDiv {
+    background-image: url("../../Assets/6.jpg");
+    border-radius: 25px;
+}
+
+.h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.h3 {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.p1 {
+    font-family: 'Hi Melody', cursive;
+    font-size: xx-large;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
